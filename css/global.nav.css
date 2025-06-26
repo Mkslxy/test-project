@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    .header__logo {
+        .header__logo-image {
+            width: 182px;
+        }
+
+        .header__logo-text {
+
+        }
+    }
+
+    .header__container {
+        .header__links {
+            display: flex;
+            justify-content: space-around;
+
+            .header__links-item {
+
+            }
+        }
+    }
+
+    .header__media {
+
+        .header__media-links {
+            display: flex;
+            justify-content: space-around;
+
+            .header__media-link-item {
+            }
+        }
+    }
+}
