@@ -1,3 +1,6 @@
+@import url(https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Noto+Sans:ital,wght@0,100..900;1,100..900);
+@import url(https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Noto+Sans:ital,wght@0,100..900;1,100..900|Oswald:wght@200..700);
+
 *,
 *:before,
 *:after {
@@ -7,16 +10,24 @@
 }
 
 :root {
-    --global-links-color: #ebebea;
+    --global-links-color: #ffffffbf;
+    --title-color: #e3c71f;
+    --text-color: #f9f6f0;
+    --button-background-color: #427ea3;
+    --button-text-color: #fff7e7;
+    --alternative-button-text-color: black;
+    --alternative-button-background-color: white;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
-    /*color: var(--global-links-color);*/
+    color: var(--global-links-color);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
 }
 
 body {

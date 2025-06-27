@@ -1,6 +1,14 @@
 .header {
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 20px;
+    margin-top: 20px;
+
     .header__logo {
         .header__logo-image {
             width: 182px;
@@ -15,9 +23,14 @@
         .header__links {
             display: flex;
             justify-content: space-around;
+            gap: 40px;
 
-            .header__links-item {
+            .header__link-item {
+                font-weight: bold;
 
+                &:hover{
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -27,6 +40,7 @@
         .header__media-links {
             display: flex;
             justify-content: space-around;
+            gap: 20px;
 
             .header__media-link-item {
             }

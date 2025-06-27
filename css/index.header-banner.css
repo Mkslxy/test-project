@@ -1,0 +1,80 @@
+.header__banner {
+    position: relative;
+    width: 100%;
+    height: 70rem;
+    overflow: hidden;
+
+    .header__banner-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .header__banner-img-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .header__banner-content {
+        .header__banner-title {
+            position: absolute;
+            top: 38%;
+            left: 20%;
+            color: var(--title-color);
+            font-size: 142px;
+            font-family: "Oswald", sans-serif;
+            text-transform: uppercase;
+        }
+
+        .header__banner-subtitle {
+            margin-top: 3rem;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            color: var(--text-color);
+            font-size: 19px;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+        }
+
+        .header__banner-container {
+            .header__banner-container-btn {
+                position: absolute;
+                top: 60%;
+                left: 43%;
+                background-color: var(--button-background-color);
+                color: var(--button-text-color);
+                padding: 15px 35px;
+                border-radius: 20%;
+
+                &:hover {
+                    color: var(--alternative-button-text-color);
+                    background-color: var(--alternative-button-background-color);
+                }
+            }
+
+            .header__banner-container-img {
+                position: absolute;
+                top: 12%;
+                left: 53%;
+            }
+
+            .header__banner-container-text {
+                position: absolute;
+                top: 61.2%;
+                left: 55%;
+                font-size: 13px;
+                font-family: 'Lato', sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+
+}
