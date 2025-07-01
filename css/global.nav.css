@@ -1,15 +1,10 @@
-.header {
+.header__global-container {
     display: flex;
     justify-content: space-around;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 30px 40px;
 
     .header__logo {
+
         .header__logo-image {
             width: 182px;
         }
@@ -28,7 +23,7 @@
             .header__link-item {
                 font-weight: bold;
 
-                &:hover{
+                &:hover {
                     text-decoration: underline;
                 }
             }
@@ -36,6 +31,7 @@
     }
 
     .header__media {
+
 
         .header__media-links {
             display: flex;
