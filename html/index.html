@@ -12,10 +12,12 @@
 <header class="header">
     <div class="header__wrapper">
         <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.nav.partial.html"></nav>
-        <section data-hx-trigger="load" data-hx-swap="outerHTML"
-                 data-hx-get="index.header-banner.partial.html"></section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-banner.partial.html"></section>
     </div>
 </header>
+<main>
+    <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.cards.partial.html"></div>
+</main>
 <script src="../js/index.js" type="module"></script>
 </body>
 </html>

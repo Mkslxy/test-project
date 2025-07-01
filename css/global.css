@@ -1,5 +1,6 @@
 @import url(https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Noto+Sans:ital,wght@0,100..900;1,100..900);
 @import url(https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Noto+Sans:ital,wght@0,100..900;1,100..900|Oswald:wght@200..700);
+@import url(https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Noto+Sans:ital,wght@0,100..900;1,100..900|Oswald:wght@200..700);
 
 *,
 *:before,
@@ -18,6 +19,8 @@
     --alternative-button-text-color: black;
     --alternative-button-background-color: white;
     --img-color: white;
+    --card-title-color: white;
+    --card-text-color:white;
 }
 
 ul {
