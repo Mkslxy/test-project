@@ -1,37 +1,55 @@
 .header__banner {
-
-
-    .header__banner-img {
-
-    }
-
-    .header__banner-img-overlay {
-
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
 
     .header__banner-content {
-        .header__banner-title {
+        padding-top: 250px;
 
+        .header__banner-title {
+            font-family: 'Oswald', sans-serif;
+            font-size: 142px;
+            color: var(--title-color);
+            text-transform: uppercase;
         }
 
         .header__banner-subtitle {
-
+            color: var(--text-color);
+            text-align: center;
+            font-size: 19px;
+            font-family: Lato, sans-serif;
         }
 
         .header__banner-container {
-            .header__banner-container-btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
 
+            .header__banner-container-btn {
+                padding: 15px 40px;
+                margin-right: 20px;
+                background-color: var(--button-background-color);
+                border-radius: 25%;
+                color: var(--button-text-color);
 
                 &:hover {
+                    background-color: var(--alternative-button-background-color);
+                    color: var(--alternative-button-text-color);
                 }
             }
 
             .header__banner-container-img {
-
+                color: var(--img-color);
+                margin-top: 10px;
             }
 
             .header__banner-container-text {
-
+                margin-top: 12px;
+                margin-left: 12px;
+                font-family: Lato, sans-serif;
+                font-size: 13.2px;
             }
         }
     }

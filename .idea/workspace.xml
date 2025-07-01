@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dd2e279-2a8e-45a3-94b1-1a7150530964" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/global.nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.header-banner.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.header-banner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/global.nav.partial.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/global.nav.partial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.header-banner.partial.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.header-banner.partial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
@@ -82,7 +79,8 @@
       <workItem from="1751041311393" duration="4015000" />
       <workItem from="1751184046612" duration="199000" />
       <workItem from="1751221497328" duration="35000" />
-      <workItem from="1751387898444" duration="959000" />
+      <workItem from="1751387898444" duration="1268000" />
+      <workItem from="1751396012966" duration="1652000" />
     </task>
     <servers />
   </component>
